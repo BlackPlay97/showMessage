@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiêm tra số chẳn lẻ</title>
+  </head>
+  <body>
+    Nhập số
+    <input type="text" id="num" />
+    <button onclick="check()">Kiểm tra</button>
+    <script>
+      let inp1 = document.getElementById("num");
+      function check() {
+        let inp = inp1.value;
+        if (inp % 2 == 0) {
+          alert("Đây là số chẳn");
+        } else {
+          alert("Đây là số lẻ");
+        }
+      }
+      //   cosole.log(check(2))
+    </script>
+  </body>
+</html>
+chekc
